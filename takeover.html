@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="takeover.css" />
+    <title>Scroll Animation</title>
+  </head>
+  <body>
+    <div class="container container-root responsivegrid">
+      <div
+        class="global naviagtion"
+        style="height: 80px; position: relative"
+      ></div>
+      <header>
+        <h1>People</h1>
+        <h2>
+          Impacting thee livs of billions around the globe is a responsibility
+          we take seriously
+        </h2>
+      </header>
+      <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <!-- Repeat this for each image -->
+          <div class="image-section mdc-layout-grid__cell--span-12">
+            <img src="takeover.jpg" class="image" />
+            <div class="text-box">
+              <p>Image Description Text 1</p>
+            </div>
+          </div>
+          <div class="image-section mdc-layout-grid__cell--span-12">
+            <img src="takeover.jpg" class="image" />
+            <div class="text-box">
+              <p>Image Description Text 2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="takeover.js"></script>
+  </body>
+</html>
